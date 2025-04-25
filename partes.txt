@@ -1,0 +1,18 @@
+
+
+- Módulo 1 (Jeanpierre):  
+  - Crear solución y namespaces.  
+  - `TurnManager` con evento `PasarTurno()`, +20 energía por turno.
+
+- Módulo 2 (Yañe): 
+  - Jerarquía `Estructura` → `Granja`/`Torre`/`Casa` (costes y tiempos).  
+  - `ColaConstruccion` suscrita a “TurnoTerminado”.
+
+- Módulo 3 (Benja): 
+  - Jerarquía `Unidad` → `Soldado`/`Arquero` (atributos y coste).  
+  - `ColaProduccion` vinculada a casas libres y eventos de turno.
+
+- Módulo 4 (Roger):
+  - Fase de combate jugador vs. IA.  
+  - IA enemiga (turnos 1–10 inactiva, luego Fibonacci c/2 turnos).  
+  - Detección de derrota y resumen final.
