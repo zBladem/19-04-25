@@ -1,10 +1,9 @@
-﻿using System;
+﻿// Unidad.cs & ProductionManager.cs
+// Módulo 3 – Responsable: Benja
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace namespace_Programacion___Semana_4___Ejercicio
 {
     abstract class Unidad
     {
